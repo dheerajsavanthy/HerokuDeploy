@@ -18,7 +18,7 @@ st.write(
     in our [repository](https://github.com/dheerajsavanthy/HerokuDeploy), if you're curious to know :wink:
 
     For this interface, we've used the help of Streamlit's amazing community which has
-    always been our best source of ideas. So if you anything listed here catches your eye,
+    always been our best source of ideas. So if anything listed here catches your eye,
     ask about it in their [forums](https://discuss.streamlit.io)!
     """
 )
