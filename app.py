@@ -60,7 +60,7 @@ def get_next_probability(given_list):   #returns dictionary
     return probability_dict
 
 def trainMarkovModel():
-    for line in open(train_data):
+    for line in open(train_data, encoding="utf8"):
         tokens = line.rstrip().lower().split()
         tokens_length = len(tokens)
         for i in range(tokens_length):
