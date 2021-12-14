@@ -29,7 +29,15 @@ st.warning(
 """
 )
 
-st.header('Word Predictor')
+st.markdown("<br>", unsafe_allow_html=True)
+
+
+"""
+# Next Word Generator
+[![Star](https://img.shields.io/github/languages/code-size/dheerajsavanthy/HerokuDeploy)](https://github.com/dheerajsavanthy/HerokuDeploy)	
+"""
+st.markdown("<br>", unsafe_allow_html=True)
+
 
 train_data = 'republic.txt'
 
@@ -99,7 +107,6 @@ trainMarkovModel()  #generate first, second words list and transitions
 ########## demo code below ################
 print("Usage: start typing.. program will suggest words. Press tab to chose the first suggestion or keep typing\n")
 
-import msvcrt   #use of mscvrt to get character from user on real time without pressing enter
 c=st.text_input("Type your word here")
 sent=''
 last_suggestion=[]
